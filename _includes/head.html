@@ -1,0 +1,25 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="{{ site.meta }}">
+    <meta name="description" content="{{site.about-text}}">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Dimitris Karapanos" />
+    <meta property="og:type" content="resume" />
+    <meta property="og:url" content="http://www.example.com/" />
+    <!-- <meta property="og:image" content="http://example.com/image.jpg" /> -->
+    <meta property="og:description" content="{{site.description}}" /> 
+    <meta property="og:site_name" content="{{site.title}}" />
+    <meta property="fb:admins" content="100003394610387" />
+
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>

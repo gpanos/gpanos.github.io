@@ -1,0 +1,23 @@
+#-------------------------------------------------------------------------
+# Education section 
+
+universities:
+- icon: 'University-logo.png'
+  name: 'Duth'
+  details: '2011-2013'
+  text: '<strong>Master Degree</strong> Democritus University of Thrace (UDT), Xanthi, Greece 
+         «System Engineering & Management», orientation Energy, Industrial and Environmental Systems Management.
+         Departments of Civil Engineering and Electrical Engineering & Computer Engineering of the Democritus Univeristy of Thrace 
+         in collaboration with the Department of Business Management & Administration of the University of Macedonia'
+  logo: 'duth.png'
+- icon: 'University-logo.png'
+  name: 'IPMA'
+  details: '2011-2012'
+  text: 'Certified Project Management Associate (IPMA), level D (Certificate Number: 201207002)' 
+  logo: 'ipma.png'
+- icon: 'University-logo.png'
+  name: 'Auth'
+  details: '2004-2011'
+  text: 'Diploma of Rural and Surveying Engineering, Aristotle University of Thessaloniki, Greece, 
+        Faculty of Engineering, Dpt. Geodesy and Surveying'
+  logo: 'auth.jpg'

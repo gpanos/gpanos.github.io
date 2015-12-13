@@ -1,0 +1,31 @@
+<section class="section-more-info">
+    
+    <h3 id="moreInfo">More info</h3>
+    
+    <div class="download">
+        <a href="downloads/resume.pdf"
+           download="Dimitris Karapanos resume"
+        ><i class="fa fa-download"></i> Download resume</a>
+        <a id="toggle-form" href=""
+        ><i class="fa fa-download"></i> Get in touch</a>
+    </div>
+    <form action="//formspree.io/{{site.email}}"
+          method="POST"
+    >
+        <div class="info-group">
+            <label><span>Name</span>
+                <input type="text" name="name"></label>
+            <label><span>Email</span>
+            <input type="email" name="_replyto"></label>    
+        </div>
+
+        <label><span>Message</span>
+        <textarea name="message"></textarea></label>
+        <div class="submit-wrap">
+            <input type="submit" value="Send">    
+        </div>
+        
+    
+    </form>
+    
+</section>

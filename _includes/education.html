@@ -1,0 +1,36 @@
+<section class="section-education">
+    
+    <h3 id="education">Education</h3>
+    <div class="education-mobile-nav">
+        {% for university in site.data.settings.universities %}
+        <span></span>
+        {% endfor %}    
+    </div>
+    
+    <div class="education-wrap">
+        {% for university in site.data.settings.universities %}
+        <div class="education-unit">
+            <div class="department-logo">
+                <img src="img/education/{{university.icon}}" alt="department-logo">
+                <strong class="department-name">{{university.name}}</strong>
+                <em class="department-details">{{university.details}}</em>
+            </div>
+            <div class="education-text">
+                <p>{{university.text}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <div class="education-nav-icons">
+        <div class="nav-icon-next">{% include icons/next.html %}</div>
+        <div class="nav-icon-back">{% include icons/go-back.html %}</div>
+    </div>
+    
+    <div class="university-logos">
+        {% for university in site.data.settings.universities %}
+        <img class="logo-unit" src="img/education/{{university.logo}}" alt="{{university.logo}}">
+        {% endfor %}
+    </div>
+    
+</section>
