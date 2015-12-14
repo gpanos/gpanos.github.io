@@ -1160,7 +1160,11 @@ form {
 
 @media (max-width: 450px) {
   .download, form {
-    margin: 0px 10px 50px 10px; } }
+    margin: 0px 10px 50px 10px; }
+    .download a, form a {
+      width: 40%;
+      font-size: 10px;
+      white-space: nowrap; } }
 /**
  * Posts
  */
