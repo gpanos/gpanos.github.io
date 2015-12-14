@@ -416,6 +416,7 @@ section .about-icons {
     border-radius: 50%;
     background: url(../img/avatar.jpg) center center;
     background-size: cover;
+    -webkit-order: 3;
     order: 3; }
   section .about-icons [class^="info-"] {
     width: 100px;
@@ -425,18 +426,22 @@ section .about-icons {
     align-items: center; }
     section .about-icons [class^="info-"].info-icon-1 {
       order: 1;
+      -webkit-order: 1;
       background: url(../img/js-logo.png) center center;
       background-repeat: no-repeat; }
     section .about-icons [class^="info-"].info-icon-2 {
       order: 2;
+      -webkit-order: 2;
       background: url(../img/html-logo.png) center center;
       background-repeat: no-repeat; }
     section .about-icons [class^="info-"].info-icon-3 {
       order: 4;
+      -webkit-order: 4;
       background: url(../img/css-logo.gif) center center;
       background-repeat: no-repeat; }
     section .about-icons [class^="info-"].info-icon-4 {
       order: 5;
+      -webkit-order: 5;
       background: url(../img/php-logo.png) center center;
       background-repeat: no-repeat; }
 @media screen and (max-width: 650px) {
