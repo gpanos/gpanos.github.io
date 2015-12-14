@@ -92,6 +92,18 @@ $( '#toggle-form').on('click', function(e) {
     });
 } );
 
+$( '.mobile-nav').on('click', function(e) {
+    $('#nav').slideToggle(200, function() {
+        
+    });
+} );
+
+$(window).resize( function() {
+	if(window.innerWidth > 600) {
+		$("#nav").removeAttr("style");
+	}
+} );
+
 
 (function( $ ){
 

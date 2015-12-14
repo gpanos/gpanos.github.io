@@ -2,29 +2,11 @@
  * Site header
  */
 .site-header {
-    height:450px;
+    //height:450px;
     background: url(../img/204H.jpg) center center;
     background-size:cover;
     // Positioning context for the mobile navigation icon
     position: relative;
-}
-.mobile-nav {
-    float:right;    
-    margin:10px 30px 0px 0px;
-    width: 40px;
-    height: 40px;
-    //background: $grey-color-dark;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    
-    
-    i {
-        width: 100%;
-        height: 100%;
-        font-size: 40px;
-        color: $grey-color-dark;
-    }
 }
 
 .logo {
@@ -64,6 +46,13 @@
     
 }
 
+.mobile-nav {
+    display: none;
+    
+    #nav {
+        display: none;
+    }
+}
 
 .site-nav {
     float: right;
@@ -138,6 +127,54 @@
         }
     }
 }
+@include media-query($on-palm) {
+    .mobile-nav {
+        display: block;
+        float:right;    
+        margin:10px 30px 0px 0px;
+        width: 70px;
+        height: 150px;
+        //background: $grey-color-dark;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        
+        
+        i {
+            //width: 100%;
+            //height: 100%;
+            font-size: 40px;
+            color: $grey-color-dark;
+        }
+        
+        #nav {
+            display: none;
+            opacity: 0.7;
+            position: relative;
+            float: left;
+            right: 30px;
+            list-style-type: none;
+
+            
+            li {
+                text-align: left;
+                a {
+                    text-decoration: none;
+                    color: $text-color;
+                    line-height: $base-line-height;
+                    font-weight: 700;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color:rgba(0,0,0,0.7);            
+                    
+                    &:hover {
+                        color: rgba(0,0,0,1);    
+                    }
+                }
+            }        
+        }
+    }
+}
 
 
 h1 {
@@ -164,6 +201,7 @@ h1 {
     letter-spacing: 0.05em;
     font-size:14px;
     color:white;
+    padding-bottom: 50px;
 }
 
 /**
