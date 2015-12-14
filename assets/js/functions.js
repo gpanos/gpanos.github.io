@@ -83,7 +83,12 @@ function educationStuff() {
 $( '#toggle-form').on('click', function(e) {
     e.preventDefault();
     $('form').slideToggle(500, function(){
-        
+        var $target = $('#toggle-form').find('i');
+        if ( $target.hasClass('fa-plus-square') ) {
+            $target.removeClass('fa-plus-square').addClass('fa-minus-square');
+        } else {
+            $target.removeClass('fa-minus-square').addClass('fa-plus-square');
+        }
     });
 } );
 
