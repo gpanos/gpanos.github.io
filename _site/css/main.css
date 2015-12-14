@@ -390,7 +390,7 @@ section .about-icons {
     height: 200px;
     border-radius: 50%;
     background: url(../img/avatar.jpg) center center;
-    background: cover;
+    background-size: cover;
     order: 3; }
   section .about-icons [class^="info-"] {
     width: 100px;
@@ -419,8 +419,11 @@ section .about-icons {
     text-align: center; }
     section .about-icons .avatar {
       display: block;
+      width: 200px;
+      height: 200px;
       background-position: center center;
       background-repeat: no-repeat;
+      background-size: cover;
       margin: 0 auto 30px; }
     section .about-icons [class^="info-"] {
       margin: 10px;
