@@ -1073,6 +1073,7 @@ section {
 @media (max-width: 700px) {
     .social-links {
         a {
+            display: inline-block;
             margin: 10px;
             width: 25px;
             height: 25px;
