@@ -368,6 +368,7 @@ section {
         display: -webkit-flex;
         align-items: center;
         justify-content: space-around;
+        -webkit-justify-content: space-around;
         .avatar {
             width: 200px;
             height: 200px;
@@ -941,6 +942,7 @@ section {
     margin: 50px auto 100px;
     align-items: flex-end;
     justify-content: space-around;
+    -webkit-justify-content: space-around;
     display: flex;
     display: -webkit-flex;
     
@@ -1070,6 +1072,7 @@ section {
     display: flex;
     display: -webkit-flex;
     justify-content: space-around;
+    -webkit-justify-content: space-around;
     //flex-wrap: wrap;
     
     a {
@@ -1086,6 +1089,8 @@ section {
         
         &:hover {
             transform: scale(1.2);
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
             text-decoration: none;
             opacity: 0.5;
         }
@@ -1143,6 +1148,7 @@ section {
      display: flex;
      display: -webkit-flex;
      justify-content: space-around;
+     -webkit-justify-content: space-around;
      
      a {
          background-color: #F88017;
