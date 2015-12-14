@@ -1048,8 +1048,7 @@ section .skills-graph {
   max-width: 700px;
   margin: 0px auto 50px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
+  justify-content: space-around; }
   .social-links a {
     display: block;
     background: #F88017;
@@ -1085,6 +1084,15 @@ section .skills-graph {
     opacity: 0.5; }
 
 @media (max-width: 700px) {
+  .social-links a {
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    font-size: 14px; }
+
   .big-link {
     font-size: 20px; } }
 /**
@@ -1149,6 +1157,9 @@ form {
     form label span {
       display: block; }
 
+@media (max-width: 450px) {
+  .download, form {
+    margin: 0px 10px 50px 10px; } }
 /**
  * Posts
  */
