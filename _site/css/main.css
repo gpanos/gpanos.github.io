@@ -418,6 +418,11 @@ section .about-icons {
     background-size: cover;
     -webkit-order: 3;
     order: 3; }
+    section .about-icons .avatar:hover {
+      background: url(../img/darthvader.jpg) center center;
+      background-size: cover;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
   section .about-icons [class^="info-"] {
     width: 100px;
     height: 100px;
