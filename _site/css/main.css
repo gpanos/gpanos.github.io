@@ -406,6 +406,7 @@ section .about-icons {
   max-width: 780px;
   margin: 0 auto;
   display: flex;
+  display: -webkit-flex;
   align-items: center;
   justify-content: space-around; }
   section .about-icons .avatar {
@@ -419,6 +420,7 @@ section .about-icons {
     width: 100px;
     height: 100px;
     display: flex;
+    display: -webkit-flex;
     align-items: center; }
     section .about-icons [class^="info-"].info-icon-1 {
       order: 1;
@@ -838,6 +840,7 @@ section .skills-graph {
     display: none; }
     .education-wrap .education-unit.active-university {
       display: flex;
+      display: -webkit-flex;
       -webkit-animation: animation 1s linear both;
       animation: animation 1s linear both;
       /* Generated with Bounce.js. Edit at http://goo.gl/MMDwjm */ }
@@ -985,7 +988,8 @@ section .skills-graph {
   margin: 50px auto 100px;
   align-items: flex-end;
   justify-content: space-around;
-  display: flex; }
+  display: flex;
+  display: -webkit-flex; }
   .university-logos .logo-unit {
     cursor: pointer;
     margin: 0px 20px;
@@ -1074,6 +1078,7 @@ section .skills-graph {
   max-width: 700px;
   margin: 0px auto 50px;
   display: flex;
+  display: -webkit-flex;
   justify-content: space-around; }
   .social-links a {
     display: block;
@@ -1129,6 +1134,7 @@ section .skills-graph {
   max-width: 450px;
   margin: 0px auto 50px;
   display: flex;
+  display: -webkit-flex;
   justify-content: space-around; }
   .download a {
     background-color: #F88017;

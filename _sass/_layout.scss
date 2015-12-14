@@ -365,6 +365,7 @@ section {
         max-width: 780px;
         margin: 0 auto;
         display: flex;
+        display: -webkit-flex;
         align-items: center;
         justify-content: space-around;
         .avatar {
@@ -380,6 +381,7 @@ section {
             width: 100px;
             height:100px;
             display: flex;
+            display: -webkit-flex;
             align-items: center;
             
             &.info-icon-1 {
@@ -849,6 +851,7 @@ section {
         
         &.active-university {
             display: flex;
+            display: -webkit-flex;
             -webkit-animation: animation 1s linear both;
             animation: animation 1s linear both;
 
@@ -939,6 +942,7 @@ section {
     align-items: flex-end;
     justify-content: space-around;
     display: flex;
+    display: -webkit-flex;
     
     .logo-unit {
         cursor: pointer;
@@ -1064,6 +1068,7 @@ section {
     max-width: 700px;
     margin: 0px auto 50px;
     display: flex;
+    display: -webkit-flex;
     justify-content: space-around;
     //flex-wrap: wrap;
     
@@ -1136,6 +1141,7 @@ section {
      max-width: 450px;
      margin: 0px auto 50px;
      display: flex;
+     display: -webkit-flex;
      justify-content: space-around;
      
      a {
